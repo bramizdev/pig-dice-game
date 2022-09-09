@@ -36,7 +36,7 @@ const scoreP0 = document.getElementById('score-player-0');
 const scoreP1 = document.getElementById('score-player-1');
 
 let activePlayer, currentScore, scores, isPlaying;
-const win = 20;
+const win = 100;
 
 const init = () => {
   dieDOM.classList.add('hidden');
